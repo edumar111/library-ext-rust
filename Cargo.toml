@@ -1,0 +1,10 @@
+[package]
+name = "embeber"
+version = "0.1.0"
+authors = ["Eduardo Marchena <emarchen@everis.com>"]
+
+[dependencies]
+
+[lib]
+name = "embeber"
+crate-type = ["dylib"]
