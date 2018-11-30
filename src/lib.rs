@@ -5,7 +5,7 @@ pub extern fn procesar() {
    let handles: Vec<_> = (0..10).map(|_|{
    		thread::spawn(|| {
    			let mut x= 0;
-   			for _ in 0..100_000 {
+   			for _ in 0..30_000 {
    				x += 1;
                println!("numero: {}", x);
    			}

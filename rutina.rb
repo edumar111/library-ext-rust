@@ -6,7 +6,7 @@ threads = []
 10.times do
   	threads << Thread.new do
      	count = 0
-    	1000_000.times do
+    	30_000.times do
       		count += 1
       		puts count
 		end 
